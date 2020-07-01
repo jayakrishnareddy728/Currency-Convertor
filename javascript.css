@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("currency.jpg");
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+    width: 300px;
+	height: 200px;
+    /* border: solid black; */
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	margin: auto;
+}
+input{
+       display: block;
+       margin-right: auto;
+       margin-left: auto;
+       width: 100%;
+       padding: 12px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       resize: vertical;
+       border-color: rgba(0, 0, 0, .15);
+}
+.convert{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        color: white;
+        width: 120px;
+        height: 30px;
+        border-radius: 4px;
+        background: lightcoral;
+}
+span{
+    font-size: 20px;
+    font-weight: bold;
+}

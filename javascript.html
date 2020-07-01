@@ -1,0 +1,24 @@
+<html>
+<head>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "javascript.css">
+    <title>project</title>
+</head>
+<body>
+    <button onclick = 'resetField()'>RESET</button><br>
+    <div class = "container">
+        <select id="sourceCurrency" onchange="getSrcDropdownValue()">
+        <option>Select</option>
+        </select>
+        <input list="CURRENCY"  placeholder="ENTER SOURCE" class = 'source' id = 'cv'><br>
+        <select id= "destinationCurrency" onchange= "getDesDropdownValue()">
+        <option>Select</option>
+        </select>
+        <span id = "final"></span>
+        <button class = 'convert' onclick="btnConv()">CONVERT</button>
+    </div>
+    <!-- <h1 id="srcVal"></h1>
+    <h1 id="desVal"></h1> -->
+    <script type = "text/javascript" src = "javascript.js"></script>
+</body>
+</html>
